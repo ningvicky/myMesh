@@ -1,0 +1,29 @@
+TZERO_CHECK
+v6
+r1
+cCheck dependencies
+cPhaseScriptExecution CMake\ Rules /Users/NingMac/projects/myMesh/bulild_bin_Xcode/mesh.build/Debug/ZERO_CHECK.build/Script-269982234EE9403B9C70DC72.sh
+
+N/Users/NingMac/projects/myMesh/bulild_bin_Xcode/mesh.build/Debug/ZERO_CHECK.build/Script-269982234EE9403B9C70DC72.sh
+c00000000539627AA00000000000000B9
+t1402349482
+s185
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesac8e602a5f46b941^bd8e642a5f46b941^---0#1#1#--18"Check dependencies36"18DE248C-D496-4C85-B70A-2848E3536214-
+
+CPhaseScriptExecution CMake\ Rules /Users/NingMac/projects/myMesh/bulild_bin_Xcode/mesh.build/Debug/ZERO_CHECK.build/Script-269982234EE9403B9C70DC72.sh
+s424042282.381829
+e424042282.543000
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/NingMac/projects/myMesh/bulild_bin_Xcode/mesh.build/Debug/ZERO_CHECK.build/Script-269982234EE9403B9C70DC72.sh
+oecho ""
+o
+omake -f /Users/NingMac/projects/myMesh/bulild_bin_Xcode/CMakeScripts/ReRunCMake.make
+omake[1]: `/Users/NingMac/projects/myMesh/bulild_bin_Xcode/CMakeFiles/cmake.check_cache' is up to date.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'119"PhaseScriptExecution CMake\ Rules bulild_bin_Xcode/mesh.build/Debug/ZERO_CHECK.build/Script-269982234EE9403B9C70DC72.sh1040622a5f46b941^57278b2a5f46b941^-197"echo ""make -f /Users/NingMac/projects/myMesh/bulild_bin_Xcode/CMakeScripts/ReRunCMake.makemake[1]: `/Users/NingMac/projects/myMesh/bulild_bin_Xcode/CMakeFiles/cmake.check_cache' is up to date.3(21%IDEActivityLogMessage2@8"echo ""-424042282#0#8#-0#-----2@85"make -f /Users/NingMac/projects/myMesh/bulild_bin_Xcode/CMakeScripts/ReRunCMake.make-424042282#9#85#-0#-----2@103"make[1]: `/Users/NingMac/projects/myMesh/bulild_bin_Xcode/CMakeFiles/cmake.check_cache' is up to date.-424042282#94#103#-0#-----0#0#1#--290"PhaseScriptExecution CMake\ Rules bulild_bin_Xcode/mesh.build/Debug/ZERO_CHECK.build/Script-269982234EE9403B9C70DC72.sh    cd /Users/NingMac/projects/myMesh    /bin/sh -c /Users/NingMac/projects/myMesh/bulild_bin_Xcode/mesh.build/Debug/ZERO_CHECK.build/Script-269982234EE9403B9C70DC72.sh36"300486E4-13EA-4E8D-8888-4EB3DF2CB548-
+b8B820346-E99B-4BBF-B77E-70452220B0AA
+

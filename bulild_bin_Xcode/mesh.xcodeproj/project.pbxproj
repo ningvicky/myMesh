@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              1816DB3A6DF7407AB0B0EC63 /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 2271A448066147FA8F53B64D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            1DFE54CD3A0245939F894A97 /* CMake Rules */,
+                     );
+                     dependencies = (
+                            EE376D4A203945D7A18741EF /* PBXTargetDependency */,
+                            2929D360C55B4C8D979796C0 /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              840A798EA2F541549007BD5C /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 8821FBA0E9454FB88E259FD1 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            B1637B77774047B8A09B946B /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+662443D7D644490FA2A1FA12 /* /Users/NingMac/projects/myMesh/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = C9734FF5301648F5A8F53B4A /* /Users/NingMac/projects/myMesh/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+4658DBB1941E4058932658E9 /* /Users/NingMac/projects/myMesh/cube.cpp */ = {isa = PBXBuildFile; fileRef = 5320B9D477974D80AEDB8FED /* /Users/NingMac/projects/myMesh/cube.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+046C177E31FF4DA1AB07A183 /* /Users/NingMac/projects/myMesh/main.cpp */ = {isa = PBXBuildFile; fileRef = 70F69900015E47439C1EB466 /* /Users/NingMac/projects/myMesh/main.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+6D3985002989490483467D0C /* /Users/NingMac/projects/myMesh/mesh.cpp */ = {isa = PBXBuildFile; fileRef = 0B0C08492DFC4971ADA5BD1C /* /Users/NingMac/projects/myMesh/mesh.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+CEABC5994EDA43858713A70C /* /Users/NingMac/projects/myMesh/shader_utils.cpp */ = {isa = PBXBuildFile; fileRef = A2900EAF8E3B43899AA8AF92 /* /Users/NingMac/projects/myMesh/shader_utils.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              8C5277F1D0414EA9B28E23EE /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              2798B5BA0E8345ECB1A96A6C /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              C6962E1E350B494BA85028B9 /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+              78F6515B1DAD41FBB314D82A /* MinSizeRel */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = MinSizeRel;
+              };
+              6B6D0A54EB7D46AF8364878D /* RelWithDebInfo */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              311C11D50C1A475A819E26A0 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 3B329DD03A8A45B1AB4A847D /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 78217BFBA9A643F19E02A661;
+                     remoteInfo = "mesh.x";
+              };
+              38FA989236AB4128B52226BD /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 3B329DD03A8A45B1AB4A847D /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 840A798EA2F541549007BD5C;
+                     remoteInfo = ZERO_CHECK;
+              };
+              A81C99C113FC4651A9D908E6 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 3B329DD03A8A45B1AB4A847D /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 840A798EA2F541549007BD5C;
+                     remoteInfo = ZERO_CHECK;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+C9734FF5301648F5A8F53B4A /* /Users/NingMac/projects/myMesh/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+5320B9D477974D80AEDB8FED /* /Users/NingMac/projects/myMesh/cube.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "cube.cpp"; path = "cube.cpp"; sourceTree = SOURCE_ROOT; };
+70F69900015E47439C1EB466 /* /Users/NingMac/projects/myMesh/main.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "main.cpp"; path = "main.cpp"; sourceTree = SOURCE_ROOT; };
+0B0C08492DFC4971ADA5BD1C /* /Users/NingMac/projects/myMesh/mesh.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "mesh.cpp"; path = "mesh.cpp"; sourceTree = SOURCE_ROOT; };
+A2900EAF8E3B43899AA8AF92 /* /Users/NingMac/projects/myMesh/shader_utils.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "shader_utils.cpp"; path = "shader_utils.cpp"; sourceTree = SOURCE_ROOT; };
+BE264E5B6E154E1B94B9D9E6 /* mesh.x */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "mesh.x"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              045B09D0E879468EA16A4640  = {
+                     isa = PBXGroup;
+                     children = (
+                            42DEE3E37B6C4C53BB112F85 /* Sources */,
+                            296AB8BCF51A4EBA968BA21D /* Resources */,
+                            53AB4E8066D04619A4510CAB /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              42DEE3E37B6C4C53BB112F85 /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            5E3B225B739147A3BEB64E09 /* ALL_BUILD */,
+                            FE48E6F7F5F745339571ED6F /* ZERO_CHECK */,
+                            C6035C62A3A24A4A9F84F019 /* mesh.x */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              296AB8BCF51A4EBA968BA21D /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              5E3B225B739147A3BEB64E09 /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            77EE5AA0F9E24104BD6E694D /* CMake Rules */,
+                            C9734FF5301648F5A8F53B4A /* /Users/NingMac/projects/myMesh/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              77EE5AA0F9E24104BD6E694D /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              FE48E6F7F5F745339571ED6F /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            0D9BB991C63B43AEABD5F813 /* CMake Rules */,
+                            C9734FF5301648F5A8F53B4A /* /Users/NingMac/projects/myMesh/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              0D9BB991C63B43AEABD5F813 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              C6035C62A3A24A4A9F84F019 /* mesh.x */ = {
+                     isa = PBXGroup;
+                     children = (
+                            07436AFEC19E4EC9AF196C10 /* Source Files */,
+                            C9734FF5301648F5A8F53B4A /* /Users/NingMac/projects/myMesh/CMakeLists.txt */,
+                     );
+                     name = "mesh.x";
+                     sourceTree = "<group>";
+              };
+              07436AFEC19E4EC9AF196C10 /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            5320B9D477974D80AEDB8FED /* /Users/NingMac/projects/myMesh/cube.cpp */,
+                            70F69900015E47439C1EB466 /* /Users/NingMac/projects/myMesh/main.cpp */,
+                            0B0C08492DFC4971ADA5BD1C /* /Users/NingMac/projects/myMesh/mesh.cpp */,
+                            A2900EAF8E3B43899AA8AF92 /* /Users/NingMac/projects/myMesh/shader_utils.cpp */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              53AB4E8066D04619A4510CAB /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            BE264E5B6E154E1B94B9D9E6 /* mesh.x */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              78217BFBA9A643F19E02A661 /* mesh.x */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = CC2290118287402EBC4257B0 /* Build configuration list for PBXNativeTarget "mesh.x" */;
+                     buildPhases = (
+                            1C0BAB9C46CF4B3FA8201FF9 /* Sources */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            19091BACA49D4C898FDBF628 /* PBXTargetDependency */,
+                     );
+                     name = "mesh.x";
+                     productName = "mesh.x";
+                     productReference = BE264E5B6E154E1B94B9D9E6 /* mesh.x */;
+                     productType = "com.apple.product-type.tool";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              3B329DD03A8A45B1AB4A847D /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = 7775A0ED118A4943B4EE64D7 /* Build configuration list for PBXProject  "mesh" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            2798B5BA0E8345ECB1A96A6C /* Debug */,
+                            C6962E1E350B494BA85028B9 /* Release */,
+                            78F6515B1DAD41FBB314D82A /* MinSizeRel */,
+                            6B6D0A54EB7D46AF8364878D /* RelWithDebInfo */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = 045B09D0E879468EA16A4640;
+                     projectDirPath = "..";
+                     projectRoot = "";
+                     targets = (
+                            1816DB3A6DF7407AB0B0EC63 /* ALL_BUILD */,
+                            840A798EA2F541549007BD5C /* ZERO_CHECK */,
+                            78217BFBA9A643F19E02A661 /* mesh.x */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              792FB3A7988D4176A27DFBDF /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              1DFE54CD3A0245939F894A97 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/NingMac/projects/myMesh/bulild_bin_Xcode -f /Users/NingMac/projects/myMesh/bulild_bin_Xcode/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              134B4F1FC22843969F6590D7 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              B1637B77774047B8A09B946B /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/NingMac/projects/myMesh/bulild_bin_Xcode -f /Users/NingMac/projects/myMesh/bulild_bin_Xcode/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              1C0BAB9C46CF4B3FA8201FF9 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            4658DBB1941E4058932658E9 /* /Users/NingMac/projects/myMesh/cube.cpp */,
+                            046C177E31FF4DA1AB07A183 /* /Users/NingMac/projects/myMesh/main.cpp */,
+                            6D3985002989490483467D0C /* /Users/NingMac/projects/myMesh/mesh.cpp */,
+                            CEABC5994EDA43858713A70C /* /Users/NingMac/projects/myMesh/shader_utils.cpp */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              EE376D4A203945D7A18741EF /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 78217BFBA9A643F19E02A661 /* mesh.x */;
+                     targetProxy = 311C11D50C1A475A819E26A0 /* PBXContainerItemProxy */;
+              };
+              2929D360C55B4C8D979796C0 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 840A798EA2F541549007BD5C /* ZERO_CHECK */;
+                     targetProxy = 38FA989236AB4128B52226BD /* PBXContainerItemProxy */;
+              };
+              19091BACA49D4C898FDBF628 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 840A798EA2F541549007BD5C /* ZERO_CHECK */;
+                     targetProxy = A81C99C113FC4651A9D908E6 /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              1D4E64B973584F2DBD437550 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk";
+                            SYMROOT = /Users/NingMac/projects/myMesh/bulild_bin_Xcode/build;
+                     };
+                     name = Debug;
+              };
+              6AC9046C09204A2E8BDA1DD7 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk";
+                            SYMROOT = /Users/NingMac/projects/myMesh/bulild_bin_Xcode/build;
+                     };
+                     name = Release;
+              };
+              B4665CBE1BA746E3BA8F8252 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk";
+                            SYMROOT = /Users/NingMac/projects/myMesh/bulild_bin_Xcode/build;
+                     };
+                     name = MinSizeRel;
+              };
+              93DD22974EC2472EA63DC2FA /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk";
+                            SYMROOT = /Users/NingMac/projects/myMesh/bulild_bin_Xcode/build;
+                     };
+                     name = RelWithDebInfo;
+              };
+              5DD99CC6A55C4B76AD1F91DC /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "   -s -O3";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/NingMac/projects/myMesh/bulild_bin_Xcode;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              7D8E971F0F2643AB83775941 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "   -s -O3";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/NingMac/projects/myMesh/bulild_bin_Xcode;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              9DECB25C312F4649B4FEA2E7 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "   -s -O3";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/NingMac/projects/myMesh/bulild_bin_Xcode;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              B4BDA44AF2F44812A630AC80 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "   -s -O3";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/NingMac/projects/myMesh/bulild_bin_Xcode;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              E30EAA4FC2C541BF9ACEFE6F /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "   -s -O3";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/NingMac/projects/myMesh/bulild_bin_Xcode;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              BA6CA10AD8F843139F09FA3B /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "   -s -O3";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/NingMac/projects/myMesh/bulild_bin_Xcode;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              806A76E916424485B61A7995 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "   -s -O3";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/NingMac/projects/myMesh/bulild_bin_Xcode;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              08629783983D4E5C921BBF42 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "   -s -O3";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/NingMac/projects/myMesh/bulild_bin_Xcode;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              1BE2C75E0A604DADA6710206 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "     -s -O3";
+                            OTHER_CPLUSPLUSFLAGS = "     -s -O3";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -framework OpenGL -framework AGL /usr/local/lib/libglfw3.a -framework IOKit -framework CoreVideo -framework Cocoa";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = "mesh.x";
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/NingMac/projects/myMesh/bulild_bin_Xcode;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              A4ADCAD1F52F4C3FAEB67AEB /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG   -s -O3";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG   -s -O3";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -framework OpenGL -framework AGL /usr/local/lib/libglfw3.a -framework IOKit -framework CoreVideo -framework Cocoa";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = "mesh.x";
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/NingMac/projects/myMesh/bulild_bin_Xcode;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              A64421E4C20D494782AF2831 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG   -s -O3";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG   -s -O3";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -framework OpenGL -framework AGL /usr/local/lib/libglfw3.a -framework IOKit -framework CoreVideo -framework Cocoa";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = "mesh.x";
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/NingMac/projects/myMesh/bulild_bin_Xcode;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              FBEA4A8C471E4FDCB91D2E3E /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "       -DNDEBUG   -s -O3";
+                            OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG   -s -O3";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -framework OpenGL -framework AGL /usr/local/lib/libglfw3.a -framework IOKit -framework CoreVideo -framework Cocoa";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = "mesh.x";
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/NingMac/projects/myMesh/bulild_bin_Xcode;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              7775A0ED118A4943B4EE64D7 /* Build configuration list for PBXProject  "mesh" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            1D4E64B973584F2DBD437550 /* Debug */,
+                            6AC9046C09204A2E8BDA1DD7 /* Release */,
+                            B4665CBE1BA746E3BA8F8252 /* MinSizeRel */,
+                            93DD22974EC2472EA63DC2FA /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              2271A448066147FA8F53B64D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            5DD99CC6A55C4B76AD1F91DC /* Debug */,
+                            7D8E971F0F2643AB83775941 /* Release */,
+                            9DECB25C312F4649B4FEA2E7 /* MinSizeRel */,
+                            B4BDA44AF2F44812A630AC80 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              8821FBA0E9454FB88E259FD1 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            E30EAA4FC2C541BF9ACEFE6F /* Debug */,
+                            BA6CA10AD8F843139F09FA3B /* Release */,
+                            806A76E916424485B61A7995 /* MinSizeRel */,
+                            08629783983D4E5C921BBF42 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              CC2290118287402EBC4257B0 /* Build configuration list for PBXNativeTarget "mesh.x" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            1BE2C75E0A604DADA6710206 /* Debug */,
+                            A4ADCAD1F52F4C3FAEB67AEB /* Release */,
+                            A64421E4C20D494782AF2831 /* MinSizeRel */,
+                            FBEA4A8C471E4FDCB91D2E3E /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = 3B329DD03A8A45B1AB4A847D;
+}
