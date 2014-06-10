@@ -1,29 +1,0 @@
-TALL_BUILD
-v6
-r1
-cCheck dependencies
-cPhaseScriptExecution CMake\ Rules /Users/NingMac/projects/myMesh/bulild_bin_Xcode/mesh.build/Debug/ALL_BUILD.build/Script-4FF8C1BBA6134FCBB4E7B518.sh
-
-N/Users/NingMac/projects/myMesh/bulild_bin_Xcode/mesh.build/Debug/ALL_BUILD.build/Script-4FF8C1BBA6134FCBB4E7B518.sh
-c00000000539627AD00000000000000B8
-t1402349485
-s184
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies2c469d2d5f46b941^4bab9d2d5f46b941^---0#1#1#--18"Check dependencies36"7ABD8779-ED28-4296-8045-3D19FFC61DFD-
-
-CPhaseScriptExecution CMake\ Rules /Users/NingMac/projects/myMesh/bulild_bin_Xcode/mesh.build/Debug/ALL_BUILD.build/Script-4FF8C1BBA6134FCBB4E7B518.sh
-s424042285.616966
-e424042285.643918
-r1
-xPhaseScriptExecution
-xCMake Rules
-x/Users/NingMac/projects/myMesh/bulild_bin_Xcode/mesh.build/Debug/ALL_BUILD.build/Script-4FF8C1BBA6134FCBB4E7B518.sh
-oecho ""
-o
-oecho Build\ all\ projects
-oBuild all projects
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'118"PhaseScriptExecution CMake\ Rules bulild_bin_Xcode/mesh.build/Debug/ALL_BUILD.build/Script-4FF8C1BBA6134FCBB4E7B518.sh86389e2d5f46b941^1fd9a42d5f46b941^-54"echo ""echo Build\ all\ projectsBuild all projects3(21%IDEActivityLogMessage2@8"echo ""-424042285#0#8#-0#-----2@26"echo Build\ all\ projects-424042285#9#26#-0#-----2@19"Build all projects-424042285#35#19#-0#-----0#0#1#--288"PhaseScriptExecution CMake\ Rules bulild_bin_Xcode/mesh.build/Debug/ALL_BUILD.build/Script-4FF8C1BBA6134FCBB4E7B518.sh    cd /Users/NingMac/projects/myMesh    /bin/sh -c /Users/NingMac/projects/myMesh/bulild_bin_Xcode/mesh.build/Debug/ALL_BUILD.build/Script-4FF8C1BBA6134FCBB4E7B518.sh36"CF7CB546-B461-4D63-92C5-FB8B6803082A-
-bDA08CE5A-DDDC-4077-882B-2534E09EE630
-

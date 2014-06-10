@@ -1,6 +1,6 @@
 CMAKE_MINIMUM_REQUIRED(VERSION 2.6)
-SET(CMAKE_C_COMPILER "/opt/local/bin/gcc")  
-SET(CMAKE_CXX_COMPILER "/opt/local/bin/g++")
+#SET(CMAKE_C_COMPILER "/opt/local/bin/gcc")  
+#SET(CMAKE_CXX_COMPILER "/opt/local/bin/g++")
 project(mesh)
 
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
