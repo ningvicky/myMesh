@@ -1,1 +1,0 @@
-/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/mesh.x.dir/main.cpp.o CMakeFiles/mesh.x.dir/shader_utils.cpp.o CMakeFiles/mesh.x.dir/cube.cpp.o CMakeFiles/mesh.x.dir/mesh.cpp.o  -o mesh.x  -framework OpenGL -framework AGL /usr/local/lib/libglfw3.a -framework IOKit -framework CoreVideo -framework Cocoa 
